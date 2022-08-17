@@ -1,0 +1,75 @@
+.section-1{
+    background-image: url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg');
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.section-2{
+    background-image: url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg');
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-3{
+    background-image: url('https://edge.rode.com/images/page/1/modules/5914/rode-nt-usb-webheader-v7-1920x700-rgb.jpg');
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-4{
+    background-image: url('https://edge.rode.com/images/page/1/modules/1508/rode-podmic-webheader-1920x700-rgb (2).jpg');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-5{
+    background-image: url('https://edge.rode.com/images/page/1/modules/314/WIGOII-WEBHEADER-02.jpg');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-6{
+    background-image: url('https://edge.rode.com/images/page/1/modules/5303/rode-nt-usb-mini-webheader-1920x700-rgb (2).jpg');
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.microphone{
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5357%2Fmicrophones-module-1200x300-rgb.png");
+    background-position: center;    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.interface{
+    background-image: url("https://rode.com/assets/images%2Fpage%2F1%2Fmodules%2F5359%2Finterfaces-module-2022-1200x300-rgb.jpg");
+    background-position: center;    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.software{
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5361%2Fsoftware-module-2021-1200x300-rgb.png");
+    background-position: center;    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.Accessories{
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5370%2Faccessories-module-2021-1200x300-rgb.png");
+    background-position: center;    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:900px) {
+    .section-1, .section-2 , .section-3 , .section-4 , .section-5 , .section-6{
+        background-image: none;
+        height: fit-content;                
+    }
+    .section-1 , .section-5{
+        background-color: black;
+    }
+    .section-4{
+        background-color: #A473C4;
+    }
+    .section-6{
+        background-color: #4B81B0;
+    }    
+}
