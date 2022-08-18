@@ -58,7 +58,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
     .section-1, .section-2 , .section-3 , .section-4 , .section-5 , .section-6{
         background-image: none;
         height: fit-content;                
